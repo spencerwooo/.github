@@ -1,0 +1,45 @@
+# .github/ISSUE_TEMPLATE/feature_request.yml
+
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels:
+  - enhancement
+assignees: []
+
+body:
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Is your feature request related to a problem?
+      description: Please describe the problem you are facing or the motivation for this feature.
+      placeholder: For example: "I find it difficult to..." or "It would be helpful if..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Describe the solution you'd like
+      description: Please describe what you want to happen.
+      placeholder: Clearly describe your proposed solution or feature.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives-considered
+    attributes:
+      label: Describe alternatives you've considered
+      description: Have you considered any alternative solutions or features?
+      placeholder: List any alternative approaches or features you've thought about.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+      placeholder: Any other information, links, or images that might help us understand your request.
+    validations:
+      required: false
