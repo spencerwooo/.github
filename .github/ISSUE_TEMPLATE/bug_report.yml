@@ -1,10 +1,11 @@
 # .github/ISSUE_TEMPLATE/bug_report.yml
 
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: bug
-assignees: ''
+description: Create a report to help us improve
+title: "[Bug]: "
+labels: 
+  - bug
+assignees: []
 
 body:
   - type: textarea
@@ -22,11 +23,8 @@ body:
       label: To Reproduce
       description: Steps to reproduce the behavior.
       placeholder: |-
-        List the steps to make the bug happen, for example:
-        1. Go to the homepage
-        2. Click on the login button
-        3. Enter your credentials
-        4. See the error message
+        1. Go to ...
+        2. ...
     validations:
       required: true
 
